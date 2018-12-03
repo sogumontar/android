@@ -10,25 +10,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/author"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:text="Activity 1"
             android:textSize="14dp"
             android:textStyle="italic" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pindah ke activity 2"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/change_loc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="pindah ke activity 2"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
+
 
 </LinearLayout>
